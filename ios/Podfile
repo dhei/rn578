@@ -7,21 +7,19 @@ target 'rn578' do
 
   pod 'React', path: '../node_modules/react-native', subspecs: [
     'Core',
-    'RCTText',
-    'RCTNetwork',
-    'RCTWebSocket',
-    'BatchedBridge',
     'RCTImage',
+    'RCTNetwork',
+    'RCTText',
+    'RCTWebSocket',
     'DevSupport',
     'RCTAnimation',
-    'RCTActionSheet',
-    'RCTLinkingIOS',
+    'RCTLinkingIOS'
   ]
   pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
 
   # Pods for rn578
-  pod 'appcenter', path: '../node_modules/appcenter/ios'
-  pod 'appcenter-analytics', path: '../node_modules/appcenter-analytics/ios'
+  # pod 'appcenter', path: '../node_modules/appcenter/ios'
+  # pod 'appcenter-analytics', path: '../node_modules/appcenter-analytics/ios'
 
   target 'rn578-tvOSTests' do
     inherit! :search_paths
