@@ -1,5 +1,6 @@
 How to Run:
 
+```
 git clone https://github.com/dhei/rn578
 cd rn578
 npm install
@@ -7,10 +8,11 @@ cd ios
 pod repo update
 pod install
 Run ios/rn578.xcworkspace in Xcode.
-
+```
 
 `react-native info` output:
 
+```
   React Native Environment Info:
     System:
       OS: macOS 10.14.5
@@ -37,3 +39,4 @@ Run ios/rn578.xcworkspace in Xcode.
       react-native: 0.57.8 => 0.57.8 
     npmGlobalPackages:
       react-native-git-upgrade: 0.2.7
+```
