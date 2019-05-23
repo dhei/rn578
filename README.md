@@ -1,4 +1,4 @@
-# How to Run
+How to Run:
 
 ```
 git clone https://github.com/dhei/rn578
